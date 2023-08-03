@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cards-animation/static/css/main.d806f2bf.css",
+    "main.js": "/cards-animation/static/js/main.cb25b943.js",
+    "static/media/react-logo-programming-2-svgrepo-com.svg": "/cards-animation/static/media/react-logo-programming-2-svgrepo-com.eceb029dbc928d8145da936f98f5b450.svg",
+    "static/media/nextjs-fill-svgrepo-com.svg": "/cards-animation/static/media/nextjs-fill-svgrepo-com.c15cc90ef3084ba7e4827e0cbc396ad6.svg",
+    "static/media/github-142-svgrepo-com.svg": "/cards-animation/static/media/github-142-svgrepo-com.5531be85d7a8d6f333e5c7136944a022.svg",
+    "index.html": "/cards-animation/index.html",
+    "main.d806f2bf.css.map": "/cards-animation/static/css/main.d806f2bf.css.map",
+    "main.cb25b943.js.map": "/cards-animation/static/js/main.cb25b943.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d806f2bf.css",
+    "static/js/main.cb25b943.js"
+  ]
+}
