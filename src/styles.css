@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+}
+
+.cards {
+  z-index: -1;
+  user-select: none;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: rgb(78, 78, 255);
+  padding-inline: 10px;
+}
+.cards .card {
+  text-transform: uppercase;
+  border-radius: 13px;
+  width: clamp(200px, 80vw, 600px);
+  aspect-ratio: 1.5;
+  position: absolute;
+  cursor: pointer;
+  padding-inline: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: rgb(78, 78, 255);
+}
+.cards .card img {
+  width: 30%;
+}
+
+/*# sourceMappingURL=styles.css.map */

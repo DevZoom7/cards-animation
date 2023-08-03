@@ -1,0 +1,38 @@
+@use "./resets";
+@use "./variables" as vars;
+
+@mixin flex-center($direction: row) {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: $direction;
+   color: rgb(78, 78, 255);
+}
+
+body {
+   background-color: vars.color(bg);
+}
+
+.cards {
+   z-index: -1;
+   user-select: none;
+   position: absolute;
+   inset: 0;
+   margin: auto;
+   @include flex-center;
+   padding-inline: 10px;
+   .card {
+      background-color: vars.color(main);
+      text-transform: uppercase;
+      border-radius: 13px;
+      width: clamp(200px, 80vw, 600px);
+      aspect-ratio: 1.5;
+      position: absolute;
+      cursor: pointer;
+      padding-inline: clamp(5px, 10px, 20px);
+      @include flex-center;
+      img {
+         width: 30%;
+      }
+   }
+}
